@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Page 5</title>
+  <title>Try</title>
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,11 +13,12 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-12 col-md-12 col-sm-12">
         <div class="d-flex flex-grow-1">
             
-            <a class="navbar-brand active" href="index.html">
-                Home
+            <a id="pbrand" class="navbar-brand mb-0 h1" href="index.html">
+                Homework
             </a>
 
             <div class="w-100 text-right">
@@ -50,30 +51,65 @@
     </nav>
 
     <header>
-        <h1 class="pghead">Comparison</h1>
+      <h1>Cloudiness</h1>
     </header>
 
-    <div class="container comp">
-        <div class="row">
-            <div class="col-sm-6 comp">
-                <img src="..\Resources\assets\images\LatVsCloud.png"  alt="Cloudiness">
-            </div>
-            <div class="col-sm-6 comp">
-                <img src="..\Resources\assets\images\LatVsHumid.png"  alt="Humidity">
-            </div>
-        </div>
-    </div>
-    <div class="container comp">
-        <div class="row">
-            <div class="col-sm-6 comp">
-                <img src="..\Resources\assets\images\LatVsTemp.png"  alt="Max Temperature">
-            </div>
-            <div class="col-sm-6 comp">
-                <img src="..\Resources\assets\images\LatVsWind.png"  alt="Wind Speed">
-            </div>
-        </div>
-    </div>
 
+    
+    <div class = "container">
+
+        <div class="row">
+            <div >
+              <div class="card" style="width: 45rem;">
+                <img src="..\Resources\assets\images\LatVsCloud.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">This graph is visualizing the relationship between latitude and cloudiness for cities across the globe. 
+                      The shape of the graph shows there is no relationship between latitude and cloudiness.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-lg-5 col-md-5 col-sm-6">
+              
+            </div> -->
+            <div >
+              <aside>
+                <h1>Visualizations</h1>
+                  <table>
+                   <tbody>
+                      <tr><td><figure>
+                        <a href="..\Resources\assets\images\LatVsCloud.png" target="_blank">
+                        <img class = "thumbnail" src="..\Resources\assets\images\LatVsCloud.png"  alt="A Picture">
+                        </a>
+                      </figure></td>
+                      <td><figure>
+                        <a href="..\Resources\assets\images\LatVsHumid.png" target="_blank">
+                        <img class = "thumbnail" src="..\Resources\assets\images\LatVsHumid.png"  alt="A Picture">
+                        </a>
+                      </figure></td></tr>
+                      
+                    
+                  
+                  
+                    
+                      <tr><td><figure>
+                        <a href="..\Resources\assets\images\LatVsTemp.png" target="_blank">
+                        <img class = "thumbnail" src="..\Resources\assets\images\LatVsTemp.png"  alt="A Picture">
+                        </a>
+                      </figure></td>
+                      <td><figure>
+                        <a href="..\Resources\assets\images\LatVsWind.png" target="_blank">
+                        <img class = "thumbnail" src="..\Resources\assets\images\LatVsWind.png"  alt="A Picture">
+                        </a>
+                      </figure></td></tr>
+                   </tbody>
+                  </table>  
+                </div>  
+              </aside>
+            </div>
+        </div>
+    </div>
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
