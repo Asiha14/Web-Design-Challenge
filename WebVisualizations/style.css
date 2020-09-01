@@ -79,6 +79,13 @@ p{
     margin-right: auto;
     width: 50%;
 }
+.dtable{
+    margin:5%;
+    margin-top:0%;
+}
+#data{
+    margin-left:5%;
+}
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
