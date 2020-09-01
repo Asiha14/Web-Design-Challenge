@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Cloudiness</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="d-flex flex-grow-1">
+            
+            <a class="navbar-brand" href="index.html">
+                Home
+            </a>
+
+            <div class="w-100 text-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="pg1.html">Cloudiness</a>
+                      <a class="dropdown-item" href="pg2.html">Humidity</a>
+                      <a class="dropdown-item" href="pg3.html">Max Temperature</a>
+                      <a class="dropdown-item" href="pg4.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="pg5.html" class="nav-link">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pg6.html" class="nav-link">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <h1 class="pghead">Cloudiness</h1>
+    </header>
+
+    <div class="container">
+        
+        <div class="row">
+            <div>
+                <div class="card" style="width: 45rem;">
+                    <img src="..\Resources\assets\images\LatVsCloud.png" class="card-img-top" alt="Cloudiness">
+                    <div class="card-body">
+                        <p class="card-text">This graph is visualizing the relationship between latitude and cloudiness for cities across the globe. 
+                          The shape of the graph shows there is no relationship between latitude and cloudiness.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <aside>
+             
+                    <header>
+                        <h1>Visualizations</h1>
+                    </header>
+                    
+                    <table>
+                        <tbody>
+                            <tr><td><figure>
+                                <a href="..\Resources\assets\images\LatVsCloud.png" target="_blank">
+                                <img class = "thumbnail" src="..\Resources\assets\images\LatVsCloud.png"  alt="Cloudiness">
+                                <figcaption>Cloudiness</figcaption>
+                                </a>
+                            </figure></td>
+                            <td><figure>
+                                <a href="..\Resources\assets\images\LatVsHumid.png" target="_blank">
+                                <img class = "thumbnail" src="..\Resources\assets\images\LatVsHumid.png"  alt="Humidity">
+                                <figcaption>Humidity</figcaption>
+                                </a>
+                            </figure></td></tr>
+
+                            <tr><td><figure>
+                                <a href="..\Resources\assets\images\LatVsTemp.png" target="_blank">
+                                <img class = "thumbnail" src="..\Resources\assets\images\LatVsTemp.png"  alt="Max Temperature">
+                                <figcaption>Max Temperature</figcaption>
+                                </a>
+                            </figure></td>
+                            <td><figure>
+                                <a href="..\Resources\assets\images\LatVsWind.png" target="_blank">
+                                <img class = "thumbnail" src="..\Resources\assets\images\LatVsWind.png"  alt="Wind Speed">
+                                <figcaption>Wind Speed</figcaption>
+                                </a>
+                            </figure></td></tr>
+                        </tbody>
+                    </table> 
+                </aside> 
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  
+</body>
+
+</html>
